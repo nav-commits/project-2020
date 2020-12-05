@@ -1,0 +1,144 @@
+
+.Portfolio-section{
+ height:110vh;
+ color: black;
+ font-size: 16px;
+ text-align: center;
+ padding-top: 40px;
+ background: linear-gradient(to left, rgb(211, 141, 11) 50%, transparent 50%);
+ 
+ .port{
+   font-size: 45px;
+   padding-top: 60px;
+   text-decoration: underline;
+ }
+}
+
+.portfolio-item{
+  text-decoration:none;
+        color: inherit;
+}
+
+.porto{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+ 
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 99%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: orange;
+    border-radius: 10px;
+
+
+    .text{
+      color: black;
+      font-weight: bold;
+      padding-top: 120px;
+      opacity: 2;
+      font-family: 'Montserrat', sans-serif;
+    }
+  }
+  
+  .porto:hover .overlay {
+    opacity: 0.9;
+  }
+
+
+.porto:first-child:hover{
+  opacity: 0.9;
+  border-radius: 2px;
+}
+
+.porto:nth-child(2):hover{
+  opacity: 0.9;
+  border-radius: 2px;
+}
+
+.porto:nth-child(3):hover{
+  opacity: 0.9;
+  border-radius: 2px;
+}
+.porto:last-child:hover{
+  opacity: 0.9;
+  border-radius: 2px;
+}
+
+  
+ .portfolio-image{
+    width: 370px;
+    height: 300px;
+    border-radius: 10px;
+  }
+}
+
+
+@media (max-width:1199px){
+  .porto{
+      display: flex;
+      flex-direction: column;
+      margin: 12px;
+      justify-content: center;
+      align-items: center;
+  }
+  .port{
+   padding-top: 40px;
+  }
+
+  .overlay{
+    height: 75%;
+    bottom: 40px;
+  }
+
+  .Portfolio-section{
+    height:150vh;
+  }
+ }
+
+
+ @media (max-width:410px){
+  .porto{
+     margin-left: 5px;
+    .portfolio-image{
+      width: 260px;
+      height: 220px;
+
+      }
+      .arrow{
+        position: relative;
+        bottom: 40px;
+    }
+
+    .text{
+      position: relative;
+      bottom: 40px;
+    }
+  }
+ }
+
+
+
+ @media (min-width :320px) and (max-width:480px){
+  .Portfolio-section{
+    height:220vh;
+  }
+ }
+
+
+ @media (min-width :540px) and (max-width:720px){
+  .Portfolio-section{
+    height:220vh;
+  }
+ }

@@ -1,0 +1,105 @@
+
+.side-drawer{
+height:100%;
+background: white;
+box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+position: fixed;
+top: 0;
+left: 0;
+width: 70%;
+max-width: 400px;
+z-index: 200;
+
+}
+
+.Linkers{
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.Linkers >.active{
+color: orange;
+}
+
+.navd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    margin-top: 140px;  
+    
+}
+
+
+
+.Home-text2{
+    position: relative;
+     bottom: 11px;
+     left: 3px;
+ }
+ 
+ .home-icon2{
+     padding-top: 20px;
+     margin-left: 10px;
+ }
+ 
+ 
+ .About-text2{
+     position: relative;
+      bottom: 10px;
+      left: 2px;
+  }
+  
+  .about-icon2{
+     position: relative;
+     left: 15px;
+     margin-top: 18px;
+  }
+ 
+ 
+  .port-icon2{
+     position: relative;
+     left: 25px;
+     margin-top: 18px;
+  }
+ 
+  .Port-text2{
+     position: relative;
+     bottom: 10px;
+     left: 5px;
+  }
+ 
+ 
+ 
+  .contact-icon2{
+     position: relative;
+     left: 18px;
+     margin-top: 18px;
+  }
+ 
+  .Contact-text2{
+     position: relative;
+     bottom: 10px;
+     left: 5px;
+  }
+
+
+
+
+  @media (min-width :320px) and (max-width:480px){
+    .navd{
+        margin-bottom: 0px;
+        position: relative;
+        bottom: 90px;
+        
+    }
+
+    .Linkers{
+      position: relative;
+      bottom: 30px;
+    }
+   }

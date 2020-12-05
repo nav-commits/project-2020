@@ -1,0 +1,317 @@
+$orange : orange;
+
+.Contact-section{
+    height:110vh;
+    background-color: white;
+    margin-bottom:-50px;
+    margin-top: -50px;
+    background-image: 
+    linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) ),
+    url('https://careerkarma.com/blog/wp-content/uploads/2019/05/photo-1486312338219-ce68d2c6f44d.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.form-sub{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; 
+  align-items: center;
+  border-radius: 5px;
+  background-color:white;
+  margin-left: 420px;
+  margin-right: 420px;
+  padding-bottom: 60px;
+  padding-top: 50px;
+}
+   
+
+
+.contact{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    color:white;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+.me{
+    color:$orange;
+}
+
+input,textarea{
+padding: 17px 10px 15px 4px;
+margin: 10px 20px 20px 30px;
+font-family: 'Montserrat', sans-serif;
+width: 380px;
+
+border-left: none;
+border-right: none;
+border-top: none;
+border-bottom: 3px solid orange;
+
+}
+
+input[type=text], input[type=message] {
+    font-size: 15px;
+}
+
+textarea{
+    padding-bottom: 80px;
+    font-size: 15px;
+    resize: none;
+      
+}
+.but{
+    margin-top: 15px;
+    margin-right: 295px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    padding-right: 35px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s ease;
+}
+
+.but:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+       
+}
+
+.message{
+    padding-bottom: 120px;
+}
+
+
+
+.namer{
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 28px;
+    padding-bottom: 55px;
+}
+
+
+
+
+
+
+// media queries for contact
+
+@media (min-width:1105px) and (max-width:1199px){
+    .form-sub{
+    margin-left: 300px;
+    margin-right: 320px;
+    }
+
+}
+
+
+
+
+@media (min-width:1035px) and (max-width:1105px){
+    .form-sub{
+    margin-left: 250px;
+    margin-right: 310px;
+   
+    }
+
+    .Contact-section{
+        height:115vh;
+    }
+
+}
+
+
+
+@media (min-width:972px) and (max-width:1035px){
+    .form-sub{
+    margin-left: 270px;
+    margin-right: 210px;
+   
+    }
+
+    .Contact-section{
+        height:115vh;
+    }
+
+}
+
+
+@media (min-width:850px) and (max-width:972px){
+    .form-sub{
+    margin-left: 170px;
+    margin-right: 205px;
+   
+    }
+
+    .Contact-section{
+        height:115vh;
+    }
+
+}
+
+
+@media (min-width:750px) and (max-width:850px){
+    .form-sub{
+    margin-left: 180px;
+    margin-right: 110px;
+   
+    }
+
+    .Contact-section{
+        height:115vh;
+    }
+
+}
+
+
+
+@media (min-width:630px) and (max-width:750px){
+    .form-sub{
+    margin-left: 110px; 
+    margin-right: 50px;
+   
+    }
+
+    .Contact-section{
+        height:115vh;
+    }
+
+}
+
+
+
+@media (min-width:520px) and (max-width:630px){
+    .form-sub{
+    margin-left: 60px; 
+    margin-right: 10px;
+   
+    }
+
+    .Contact-section{
+        height:115vh;
+    }
+
+}
+
+
+
+@media (min-width:487px) and (max-width:520px){
+    .form-sub{
+    margin-left: 30px; 
+    margin-right: 5px;
+   
+    }
+
+    .Contact-section{
+        height:115vh;
+    }
+
+}
+
+
+@media (min-width:400px) and (max-width:487px){
+    .form-sub{
+    margin-left: 20px; 
+    margin-right: 10px;
+    input{
+        width: 300px;
+        
+    }
+    textarea{
+        width: 300px;
+    }
+    }
+
+    .but{
+        margin-right: 205px;
+    }
+
+    .Contact-section{
+        height:115vh;
+    }
+
+}
+
+
+
+@media (min-width:332px) and (max-width:400px){
+    .form-sub{
+    margin-left: 20px; 
+    margin-right: 10px;
+    input{
+        width: 210px;
+        
+    }
+    textarea{
+        width: 210px;
+    }
+    }
+
+    .but{
+        margin-right: 90px;
+    }
+
+    .Contact-section{
+        height:115vh;
+    }
+
+}
+
+
+
+@media (min-width:290px) and (max-width:332px){
+    .form-sub{
+    margin-left: 20px; 
+    margin-right: 10px;
+    input{
+        width: 190px;
+        
+    }
+    textarea{
+        width: 190px;
+    }
+    }
+
+    .but{
+        margin-right: 90px;
+    }
+
+    .Contact-section{
+        height:115vh;
+    }
+
+}
+
+
+
+@media (min-width :360px) and (max-width:640px){
+    .Contact-section{
+        height:135vh;
+    .namer{
+        padding-bottom: 140px;
+        font-size: 14px;
+    }
+    }
+   }
+
+
+   @media (min-width :320px) and (max-width:480px){
+    .Contact-section{
+      height:220vh;
+    }
+   }
+

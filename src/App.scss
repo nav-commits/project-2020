@@ -1,0 +1,23 @@
+@import 'Styles/Navbar.scss';
+@import 'Styles/About.scss';
+@import 'Styles/Contact.scss';
+@import 'Styles/Portfolio.scss';
+@import 'Styles/Home.scss';
+@import 'Styles/Header.scss';
+@import 'Styles/Footer.scss';
+@import 'Styles/ToggleButton.scss';
+@import 'Styles/SideDrawer.scss';
+@import 'Styles/Backdrop.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+body{
+font-family: 'Montserrat', sans-serif;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+height: 100%
+}
+
+html{
+    height:100%
+}

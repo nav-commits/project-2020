@@ -1,0 +1,159 @@
+$orange : orange;
+
+@mixin FlexerCenter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  
+.navbar{
+    @include FlexerCenter();
+    min-height: 15vh;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1;
+}
+
+.Links{
+    @include FlexerCenter();
+    width: 28%;
+    list-style: none;
+    cursor: pointer;
+    margin-left: 10rem;
+}
+
+
+.Links > .active{
+color: orange;
+}
+
+
+
+.nav-Name:hover{
+ color: $orange;
+}
+
+.nav-Name{
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right:15rem ;
+    margin-left: -120px;
+}
+
+
+.Home-text{
+   position: relative;
+    bottom: 11px;
+    right: 3px;
+}
+
+.home-icon{
+    padding-top: 20px;
+}
+
+
+.About-text{
+    position: relative;
+     bottom: 10px;
+ }
+ 
+ .about-icon{
+    position: relative;
+    left: 10px;
+    margin-top: 18px;
+ }
+
+
+ .port-icon{
+    position: relative;
+    left: 15px;
+    margin-top: 18px;
+ }
+
+ .Port-text{
+    position: relative;
+    bottom: 10px;
+ }
+
+
+
+ .contact-icon{
+    position: relative;
+    left: 15px;
+    margin-top: 18px;
+ }
+
+ .Contact-text{
+    position: relative;
+    bottom: 10px;
+ }
+
+
+ @media (max-width:962px){
+  .Links{
+      display:none;
+  }
+  .nav-Name{
+      position: relative;
+      right: 200px;
+}
+ }
+
+ @media (max-width:1120px){
+    .Links{
+        width: 36%;
+    }
+   }
+
+   @media (min-width:200px) and (max-width: 738px){
+   
+    .nav-Name{
+        position: relative;
+        right: 200px;
+  }
+}
+
+
+@media (min-width:728px) and (max-width:738px){
+    .nav-Name{
+       position: relative;
+       right: 130px;
+    }
+
+   }
+
+
+   @media (min-width:500px) and (max-width:720px){
+    .nav-Name{
+       position: relative;
+       right: 20px;
+    }
+
+   }
+
+
+
+
+   @media (min-width:380px) and (max-width:500px){
+    .nav-Name{
+       position: relative;
+       left: 40px;
+    }
+
+   }
+
+
+
+   @media (min-width:300px) and (max-width:380px){
+    .nav-Name{
+       position: relative;
+       left: 120px;
+    }
+
+   }

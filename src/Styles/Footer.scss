@@ -1,0 +1,175 @@
+$orange : orange;
+
+.Footer-div{
+    background-color: black;
+    height: 20vh;
+    width: 100%;
+    color: white;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+  .flex-copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+
+   .icon-contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px; 
+    
+    .linked-in{
+        padding: 15px;
+        cursor: pointer;
+    }
+
+    .linked-in:hover{
+        color: $orange;
+    }
+
+    .git{
+        cursor: pointer;
+    }
+    
+    .git:hover{
+        color: $orange;
+    }
+    a {
+        text-decoration:none;
+        color: inherit;
+     }
+   }
+}
+
+
+
+@media (min-width :360px) and (max-width:640px){
+    .Footer-div{
+        height: 30vh;
+        .flex-copy{
+            position: relative;
+            top:60px;
+        }
+    }
+
+   }
+
+
+   @media (min-width :320px) and (max-width:480px){
+    .Footer-div{
+        height: 45vh;
+        .flex-copy{
+            position: relative;
+            top:50px;
+        }
+    }
+   }
+
+
+
+   @media (min-width :360px) and (max-width:640px){
+    .Footer-div{
+        height: 45vh;
+        .flex-copy{
+            position: relative;
+            top:80px;
+        }
+    }
+   }
+
+
+
+   @media (min-width :411px) and (max-width:731px){
+    .Footer-div{
+        height: 38vh;
+        .flex-copy{
+            position: relative;
+            top:80px;
+        }
+    }
+   }
+
+
+   @media (min-width :411px) and (max-width:823px){
+    .Footer-div{
+        height: 34vh;
+        .flex-copy{
+            position: relative;
+            top:80px;
+        }
+    }
+   }
+
+
+//    @media (min-width :375px) and (max-width:667px){
+//     .Footer-div{
+//         height: 35vh;
+//         .flex-copy{
+//             position: relative;
+//             top:70px;
+//         }
+//     }
+//    }
+
+
+   @media (min-width :375px) and (max-width:812px){
+    .Footer-div{
+        height: 35vh;
+        .flex-copy{
+            position: relative;
+            top:80px;
+        }
+    }
+   }
+
+
+
+   @media (min-width :375px) and (max-width:667px){
+    .Footer-div{
+        height: 35vh;
+        .flex-copy{
+            position: relative;
+            top:70px;
+        }
+    }
+   }
+
+
+
+
+
+   @media (min-width :768px) and (max-width:1024px){
+    .Footer-div{
+        height: 25vh;
+        .flex-copy{
+            position: relative;
+            top:80px;
+        }
+    }
+   }
+
+
+   @media (min-width :1024px) and (max-width:1366px){
+    .Footer-div{
+        height: 19vh;
+        .flex-copy{
+            position: relative;
+            top:90px;
+        }
+    }
+   }
+
+
+
+   @media (min-width :768px) and (max-width:1199px){
+    .Footer-div{
+        height: 30vh;
+    }
+   }
